@@ -71,22 +71,4 @@ class DB extends PDO {
         }, $arry);
     }
 
-    function begin($data) {
-        $this->pdo->beginTransaction();
-
-        foreach ($data as $d) {
-            $question_marks[] = '(' . $this->placeholders('?', sizeof($d)) . ')';
-        }
-
-        $sql = "INSERT INTO table (" . implode(",", array_keys($question_marks)) . ") VALUES " . implode(',', $question_marks);
-
-        $stmt = $this->pdo->prepare($sql);
-        try {
-            $stmt->execute($insert_values);
-        } catch (PDOException $e) {
-            echo $e->getMessage();
-        }
-        $this->pdo->commit();
-    }
-
 }
