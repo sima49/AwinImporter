@@ -5,7 +5,7 @@ return (object) array(
             'dbname' => 'DBNAME',
             'user' => 'DB_USER',
             'pass' => 'DB_PASS',
-            'siteBase' => '',
+            'siteBase' => '',//NOT NEEDED AS OF YET//
             'api' => 'AWIN API KEY',
             'awinUser' => 'AWIN USER ID'
 );
