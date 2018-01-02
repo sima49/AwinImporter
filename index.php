@@ -4,12 +4,9 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
         <script src="/awinProductImport/js/pace.min.js" type="text/javascript"></script>
         <link rel="stylesheet" href="/awinProductImport/js/pace-theme-flash.tmpl.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
-
         <script>
             //pace options
             paceOptions = {
@@ -38,8 +35,6 @@
                     <input class="form-control" type="text" id="cat" placeholder="Your category"/>
                     <button id="buttonS" type="submit">Import</button>
                 </form>
-
-
             </div>
         </div>
         <div class="container">
