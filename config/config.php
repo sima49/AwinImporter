@@ -2,10 +2,10 @@
 
 return (object) array(
             'host' => 'localhost',
-            'dbname' => 'sellspot_A_Store',
-            'user' => 'sellspot_Sima49',
-            'pass' => 'Mikyla22!',
+            'dbname' => 'DB_NAME',
+            'user' => 'DB_USER',
+            'pass' => 'DB_PASS',
             'siteBase' => '',
-            'api' => '884b99acfbb19a902f302a25e19b5a2c',
-            'awinUser' => '99606'
+            'api' => 'YOUR AWIN API KEY',
+            'awinUser' => 'AWIN USER ID'
 );
